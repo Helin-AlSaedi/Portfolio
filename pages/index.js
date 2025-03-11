@@ -46,7 +46,7 @@ export default function Home() {
           <div className="max-w-md">
             <h1 className="mb-5 text-5xl font-bold">Hello, I'm Helin</h1>
             <p className="mb-5 ml-1 text-lg font-semibold">
-              I’m a front-end developer.
+              I’m a front-end developer in training.
             </p>
           </div>
 
