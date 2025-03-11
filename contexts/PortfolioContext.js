@@ -6,7 +6,7 @@ const startingProjects = [
   {
     id: "1",
     title: "Project One",
-    description: "This is a demo project to showcase my work.",
+    description: "demo project.",
     tech: ["React", "Tailwind CSS"],
     link: "https://example.com/project-one",
     image: "/project1.jpg",
@@ -14,7 +14,7 @@ const startingProjects = [
   {
     id: "2",
     title: "Project Two",
-    description: "Another demo project for testing.",
+    description: "demo project.",
     tech: ["Next.js", "DaisyUI"],
     link: "https://example.com/project-two",
     image: "/project2.jpg",
@@ -22,7 +22,7 @@ const startingProjects = [
   {
     id: "3",
     title: "Project Three",
-    description: "And another demo project for testing.",
+    description: "demo project.",
     tech: ["Next.js", "DaisyUI", "Javascript"],
     link: "https://example.com/project-three",
     image: "/project3.jpg",
@@ -33,6 +33,7 @@ const startingTechSkills = [
   { name: "React", url: "/react.png" },
   { name: "JavaScript", url: "/javascript.png" },
   { name: "Tailwind CSS", url: "/tailwind.png" },
+  { name: "css", url: "/css.png" },
 ];
 
 export default function PortfolioProvider({ children }) {

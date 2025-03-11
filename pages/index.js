@@ -10,7 +10,7 @@ export default function Home() {
         <div className="flex w-full items-center justify-between">
           <ul className="menu menu-horizontal flex items-center">
             <li className="flex items-center">
-              <p>Contact:</p>
+              <p className="font-semibold">Contact:</p>
             </li>
             <li>
               <a href="https://github.com/Helin-AlSaedi">
@@ -54,7 +54,7 @@ export default function Home() {
             <div className="p-1 bg-gradient-to-tr from-red-200 via-pink-900 to-blue-500 rounded-full">
               <img
                 src="/profile.jpg"
-                alt="Robin's Profile"
+                alt="Helin's Profile"
                 className="w-48 h-48 rounded-full shadow-lg object-cover object-top"
               />
             </div>
@@ -64,7 +64,8 @@ export default function Home() {
 
       <div className="container mx-auto p-4 max-w-6xl">
         <section className="my-8 text-center mb-20">
-          <h2 className="text-3xl font-semibold">My Tech Skills</h2>
+          <h2 className="text-3xl font-semibold">My Tech Stack</h2> <br></br>
+          <p className="font-medium">Technologies I´ve been working with recently</p>
           <div className="flex flex-wrap gap-4 mt-4 justify-center">
             {techSkills.map((skill, index) => (
               <div key={index} className="mt-4">
